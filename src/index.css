@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-blue {
+  background-color: #080d3b;
+}
+
+.fz-12 {
+  font-size: 0.75rem;
+}
+
+.fz-14 {
+  font-size: 0.875rem;
+}
+
+.fz-16 {
+  font-size: 1rem;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+/* Style the scrollbar */
+.scrollable-sidebar::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+.scrollable-sidebar::-webkit-scrollbar-track {
+  background: #080d3b; /* Light gray background */
+}
+
+/* Handle (scrollbar thumb) */
+.scrollable-sidebar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Darker gray for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+/* Handle on hover */
+.scrollable-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Even darker when hovered */
+}
+
+.link div:hover {
+  background-color: #070e4e;
+  color: #fff;
+  transition: 0.3s;
+}
