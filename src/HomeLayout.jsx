@@ -16,7 +16,7 @@ export default function HomeLayout() {
           <TopNav />
         </div>
         <div className="col-10 offset-2" style={{ marginTop: "60px" }}>
-          <Outlet />
+          <Outlet context={{ home: "Boring" }} />
         </div>
       </div>
     </div>
